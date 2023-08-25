@@ -1,14 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "firstEssay"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2023-08-24
 published: true
 labels:
   - Questions
   - Answers
-  - StackOverflow
+  - GitHub
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
