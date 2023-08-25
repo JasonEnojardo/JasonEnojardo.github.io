@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "firstEssay"
+title: "First Essay"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-24
 published: true
@@ -10,8 +10,6 @@ labels:
   - Answers
   - GitHub
 ---
-
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
 ## Is there such thing as a stupid question?
 
