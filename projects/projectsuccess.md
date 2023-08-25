@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Success_Image.jpg
 title: "Project Success"
 date: 2023-08-24
 published: true
