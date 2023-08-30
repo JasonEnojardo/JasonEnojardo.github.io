@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "JavaScript 1 Reflection"
+title: "Why did the JavaScript developer go broke?"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-30
 published: true
@@ -9,6 +9,8 @@ labels:
   - Reflection
   - JavaScript
 ---
+
+Because he used typeof on a penny and got a "string" instead of a "number."
 
 ## Javascript
 
