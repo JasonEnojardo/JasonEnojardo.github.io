@@ -15,6 +15,7 @@ Because he used typeof on a penny and got a "string" instead of a "number."
 ## Javascript
 
 What do you think about Javascript so far? 
+  This is my first time I've ever used the JavaScipt language and so far I really like it. 
 If you’re a complete newbie, how does it compare to other programming languages that you know? 
 If you have prior experience, did you learn new things from this module, perhaps with respect to ES6? 
 Do you think Javascript is a good or bad programming language from a software engineering perspective?
