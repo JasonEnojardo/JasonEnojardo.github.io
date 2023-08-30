@@ -54,6 +54,16 @@
       ]
     }
   ],
+  "projects": [
+      {
+        "company": "Honolulu Fire Department",
+        "title": "Fire Truck Motion Detection using Arduino",
+        "highlights": [
+        "Created a device, using an Arduino, that detects movement and measure speed of a fire truck.",
+        "Wrote an automated program in a variety of languages such as DOS Batch, Python, and Powershell to learn different ways to continuously read a COM port and create then update to a text file uploaded to a file server",
+        ]
+      }
+  ],
   "references": [
     {
       "name": "Available upon request"
