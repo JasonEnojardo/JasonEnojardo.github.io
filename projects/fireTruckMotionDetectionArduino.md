@@ -1,15 +1,15 @@
 ---
 layout: project
 type: project
-image: img/Success_Image.jpg
-title: "Project Success"
-date: 2023-08-24
+image: img/Motion Detection Arduino.jpg
+title: "Fire Truck Motion Detection Arduino"
+date: 2022
 published: true
 labels:
-  - JavaScript
   - Arduino
-  - React
-summary: "Project success is how i pass my classes. It is inteded to guide those for educational success."
+  - C
+  - Powershell
+summary: "This is a device that detects vehicular motion paired with an automated program to retrieve the data."
 ---
 
 I don't know success just yet but when i do i'll sure update this.
