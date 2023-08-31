@@ -13,7 +13,7 @@ summary: "In EE205 our final project was to desgin a video game and my group rem
 <div class="text-center p-4">
   <img width="200px" src="..img/Space-Shooters/blueship1.png" class="img-thumbnail" >
   <img width="200px" src="..img/Space-Shooters/boss_ship.png" class="img-thumbnail" >
-  <img width="200px" src="..img/micromouse/8-bit_Asteroid.png" class="img-thumbnail" >
+  <img width="200px" src="..img/Space-Shooters/8-bit_Asteroid.png" class="img-thumbnail" >
 </div>
 
   This was a group project I worked on which was also our capstone project for EE205 which shows the professor and other students that we understand how to use C++ and most importantly knew how to work together as a team. The task of this assignment was to create a video game using SFML, which is an interface you can use to make games. We wanted our game to be simple and we didn't really have a long period of time to make up a game from scratch, so we based our game from the infamous 2D game Space Invaders. At a high level it was simple to design, you’re controlling a spaceship that could move all around the screen and the only things you must worry about are asteroids that were being hurdled at you from the top of the screen down and at the end you fight a boss. So, for those parts we created objects and put images of an asteroid, a small blue spaceship as your playable character, and a big green ship as the boss on top of those objects. This gave us the ability to give the objects health, projectiles, damage, collision, and movement properties. 
