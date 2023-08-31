@@ -19,13 +19,9 @@ summary: "This device uses a DTMF Deconder to turn on speakers."
 
   
 ```
-int getDTMFTone() {                          //Funtion to store each binary input and store into the array.
   toneVal = 0;                                //Initialize stored value to 0.
-  char tempStr[4];                            //Temp array to take each value recieved and store it into the digits array becuase if we dont have this then every digit will just be stored into the first position in the digit array.
-  if (digitalRead(STQ) == HIGH) {             //Wait for key to be released.
-                                              //For Example: We want the arduino to recieve the first 0 of 001. On the DTMF board Q4 is HIGH, Q3 is LOW, Q2 is HIGH, Q1 is LOW.
-    toneVal |= digitalRead(Q4) << 3;          //Q4 is taken form the DTMf then shifted 3 to the left and doing a bitwise OR to the current toneVal which is 0000 making toneVal at this point 1000. This lines shifts the value recieved from the DTMF board to the correct position in binary.
-    toneVal |= digitalRead(Q3) << 2;          //Q3 is tkaen from the DTMF then shifted 2 to the left making toneVal at this point still 1000.
-    toneVal |= digitalRead(Q2) << 1;          //Q2 is tkaen from the DTMF then shifted 1 to the left making toneVal at this point still 1010.
-    toneVal |= digitalRead(Q1);               //Q1 is tkaen from the DTMF and not shifting to the left making toneVal at this point still 1010. When this process is done we are left with a decimal value corresponding to the binary number, in this case 1010 is 0 becuase on the DTMF board 1010 is used to detect 0. 
+  toneVal |= digitalRead(Q4) << 3;            //Shift the first digit recieved 3 over.
+  toneVal |= digitalRead(Q3) << 2;            //Shift next digit recieved 2 over.
+  toneVal |= digitalRead(Q2) << 1;            //Shift following digit recieved 1 over.
+  toneVal |= digitalRead(Q1);                 //Leave last digit recived.
 ```
