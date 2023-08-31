@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/arduinoMotionDetection/Arduino-Logo.png
+image: img/arduinoMotionDetection/Arduino-GY-521-Mini-Breadboard.jpg
 title: "Fire Truck Motion Detection Arduino"
 date: 2022
 published: true
