@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Arduino-DTMF-Decoder/Arduino-Logo.png
+image: img/Arduino-DTMF-Decoder/Arduino-Logo-2.png
 title: "DTMF Decoder Arduino"
 date: 2022
 published: true
