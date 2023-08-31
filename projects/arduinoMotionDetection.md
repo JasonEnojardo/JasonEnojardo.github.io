@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/arduinoMotionDetection/My-Arduino-Motion-Detection-Device.jpg
+image: img/arduinoMotionDetection/Arduino-Logo.png
 title: "Fire Truck Motion Detection Arduino"
 date: 2022
 published: true
