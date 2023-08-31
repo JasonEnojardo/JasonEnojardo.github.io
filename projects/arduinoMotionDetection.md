@@ -12,3 +12,4 @@ labels:
 summary: "This is a device that detects vehicular motion paired with an automated program to retrieve the data."
 ---
 
+<img class="img-fluid" src="..img/arduinoMotionDetection/Arduino-GY-521-Schematic.png">
