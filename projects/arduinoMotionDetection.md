@@ -13,7 +13,7 @@ summary: "This is a device that detects vehicular motion paired with an automate
 ---
 
 <div class="text-center p-4">
-  <img width="300px" src="..img/arduinoMotionDetection/My-Arduino-Motion-Detection-Device.jpg" class="img-thumbnail" >
+  <img width="300px" src="..img/Arduino-Motion-Detection/My-Arduino-Motion-Detection-Device.jpg" class="img-thumbnail" >
   <img width="300px" src="..img/Arduino-Motion-Detection/Arduino-GY-521-Schematic.png" class="img-thumbnail" >
 </div>
 
