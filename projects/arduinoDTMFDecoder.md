@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/arduinoMotionDetection/My-Arduino-Motion-Detection-Device.jpg
+image: img/Arduino-DTMF-Decoder/Arduino-Logo.png
 title: "DTMF Decoder Arduino"
 date: 2022
 published: true
