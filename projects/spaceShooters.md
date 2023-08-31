@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/Space-Shooters/blueships1.png
 title: "Space Shooter"
-date: Spring 2020
+date: 2020
 published: true
 labels:
   - C++
