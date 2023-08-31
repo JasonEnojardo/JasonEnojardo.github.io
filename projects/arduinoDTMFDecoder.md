@@ -11,6 +11,6 @@ labels:
 summary: "This device uses a DTMF Deconder to turn on speakers."
 ---
 
-<img class="img-fluid" src="..img/Arduino-DTMF-Decoder/Arduino-MT8870-Schematic-Croped.jpg">
+<img class="img-fluid" src="..img/Arduino-DTMF-Decoder/Arduino-MT8870-Schematic.jpg">
 
   
