@@ -11,7 +11,7 @@ summary: "In EE205 our final project was to desgin a video game and my group rem
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/Space-Shooters/blueship1.png" class="img-thumbnail" >
+  <img width="200px" src="../img/Space-Shooters/blueships1.png" class="img-thumbnail" >
   <img width="200px" src="../img/Space-Shooters/boss_ship.png" class="img-thumbnail" >
   <img width="200px" src="../img/Space-Shooters/8-bit_Asteroid.png" class="img-thumbnail" >
 </div>
