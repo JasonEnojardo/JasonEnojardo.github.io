@@ -4,10 +4,10 @@
     "label": "Student",
     "picture": "https://github.com/JasonEnojardo.png",
     "email": "jason71@hawaii.edu",
-    "phone": "808-319-0397",
+    "phone": "",
     "website": "https://JasonEnojardo.github.io",
     "summary": "I am a senior majoring in Computer Engineering at UH Manoa and I expect to graduate in Fall, 2023.",
-    "location": { "address": "1555 Pohaku St", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "JasonEnojardo", "url": "http://github.com/JasonEnojardo" },
       { "network": "linkedin", "username": "Jason Enojardo", "url": "http://linkedin.com/in/jason-enojardo" }
