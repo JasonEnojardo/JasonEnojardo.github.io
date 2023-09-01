@@ -11,7 +11,7 @@ labels:
 summary: "This device uses a DTMF Deconder to turn on speakers."
 ---
 
-<img class="../img-fluid" src="..img/Arduino-DTMF-Decoder/Arduino-MT8870-Schematic.jpg">
+<img class="img-fluid" src="..img/Arduino-DTMF-Decoder/Arduino-MT8870-Schematic.jpg">
 
   The purpose of this project was to make a replacement component for the speaker systems in the fire stations because the component in place is not being produced anymore and it was the only one of its types that fit the speaker system we were using. So, if this device stopped working there would be a replacement part. This project was given to me and so I set out trying to figure out what parts I'd needed to make this work. First, I asked how the current device works and it works by receiving combinations of dial tones frequencies which is read by the device and when the right combination is received it triggers the stations speakers to turn on. Luckily for me there was an attachment that could be hooked up to an Arduino. The attachment is called the MT8870, and it worked by retrieving the sound frequency through a 3.5mm jack which goes through the decoder chip and lights up LEDs -built on the board in binary. So, for example if a 1 dial tone was received it'd display 0001.
 
