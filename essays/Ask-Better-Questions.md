@@ -18,11 +18,13 @@ labels:
 
 ## This Is You Ask Smart Questions
 
-  
+  Looking around on StackExchance I found a question that has most of the properties necessary for a smart question. This question asks [How do you push MongoDB objects into a global array without it overwriting?](https://stackoverflow.com/questions/65987065/how-do-you-push-mongodb-objects-into-a-global-array-without-it-overwriting). The issue they think they're having is a scoping issue. So, this person is having an issue with MongoDB and essentially, they are trying to make a program that searches for a specific person which is an object, and, in this object, it has an array of friend’s names. They want to take all the friends names and put it in a new array that is essentially the results of their friends’ name. But the issue they're having is due to the for loop in their code because at the end of the loop all the data stored in the new array gets deleted. So, this is a pretty good question because they explicitly say what they think the issue is and provide the step process as to how they developed the code. So, it seems they have already tried what they can to find their own solutions. The comments received from the community was essentially that the way the path they were using to develop the program was wrong and they should use MongoDB's aggregation pipeline and provided with a sample code to follow.
+
+  Here is another question I found that doesn't follow the properties on how to ask a smart question. This question asks [Weird adb logs, I get a lot of these logs](https://stackoverflow.com/questions/75277489/weird-adb-logs-i-get-a-lot-of-these-logs). Aside from the question all they posted was a couple lines of error codes and didn't explicitly say those were error codes and didn't explain what has caused these errors to occur, didn't provide the steps they took to find a solution themselves, didn't even provide sample code, and didn't even explain what they are trying to do. So, one of the responses was to "Please clarify your specific problem or provide additional details to highlight exactly what you need. As it's currently written, it's hard to tell exactly what you're asking.".
 
 ## Smarter the Questions, Smarter the Engineer
 
-  
+  Based on these two examples I understand now why it is important that when you ask questions make sure you tried to answer it yourself so you’re not wasting someone else's time where you could've just looked it up yourself and when you do research the issue yourself you gain a better understanding as to why you have this issue. That way you can make a more precise question and explain what you've done to try and remedy a solution yourself. This way you're showing the person you're asking that you have at least attempted to solve it and want to help yourself develop a solution rather than let someone else do it for you.
 
 ## References
 
