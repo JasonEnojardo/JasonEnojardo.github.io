@@ -13,6 +13,7 @@ labels:
 
 <img width="500px" class="rounded float-start pe-4" src="../img/Coding-Standards/coding-style.jpg">
 
+
 ## What are Coding Styles for?
 Coding styles are meant to give your code a standard format that helps with maintaining and reading your code. It's also supposed to be very helpful when working on large coding projects with other people. This is because helps everyone write in such a way that the code is going to come out uniform and improve readability later. Coding styles work as essentially a grammar check but for coding. It does automatically helps you format the code by making sure you indent certain lines of code after writing a function, have a blank space after the last line, and have a space at the end of a function from the curly bracket.
 
