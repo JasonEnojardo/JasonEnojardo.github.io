@@ -6,7 +6,7 @@ title: "Coding Standards is Lifestyle Choice"
 date: 2023-09-21
 published: true
 labels:
-  - Codign Styles
+  - Coding Styles
   - ESLint
   - Automation
 ---
