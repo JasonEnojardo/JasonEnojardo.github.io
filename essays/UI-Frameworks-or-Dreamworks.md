@@ -12,7 +12,7 @@ labels:
   - CSS
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/Coding-Standards/coding-style.jpg">
+<img width="500px" class="rounded float-start pe-4" src="../img/UI-Framework/bootstrap-5.0-illustration.png">
 
 
 ## The purpose of UI Frameworks
