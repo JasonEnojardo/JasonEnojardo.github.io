@@ -9,7 +9,7 @@ labels:
   - Meteor
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/UI-Framework/bootstrap-5.0-illustration.png">
+<img width="500px" class="rounded float-start pe-4" src="">
 
 ## Overview
   
