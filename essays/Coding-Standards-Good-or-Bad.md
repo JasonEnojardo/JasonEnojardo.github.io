@@ -11,7 +11,7 @@ labels:
   - Automation
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/Coding-Standards/coding-style.jpg">
+<img width="700" class="rounded float-start pe-4" src="../img/Coding-Standards/coding-style.jpg" alt="Image of Different Coding Syntax">
 
 
 ## What are Coding Styles for?
