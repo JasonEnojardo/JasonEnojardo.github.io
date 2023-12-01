@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Coding Standards is Lifestyle Choice"
+title: "Coding Standards is a Lifestyle Choice"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-21
 published: true
