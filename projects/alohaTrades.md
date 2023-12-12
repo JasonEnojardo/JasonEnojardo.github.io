@@ -10,7 +10,8 @@ labels:
   - React
   - Meteor
   - Frontend & Backend
-  - 
-summary: "This is a website created for memebers in the UH student community to sell their items to other students"
+  - Teamwork
+  - GitHub
+summary: "This project is about creating a web application designed for UH students to sell items to other students that can benefit from the items they no longer need or use, such as textbooks, electronics, drom furniture, and more."
 ---
 
