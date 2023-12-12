@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/alohaTrades/atradelogo.png
+image: <img src="../img/alohaTrades/atradelogo.png" alt="Aloha Trades Logo" style="width: 50%; height: auto;">
 title: "Aloha Trades"
 date: 2023
 published: true
