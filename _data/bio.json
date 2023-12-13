@@ -15,18 +15,18 @@
   },
   "interests": [
     { "name": "Cybersecurity" },
-    { "name": "Web Development" },
+    { "name": "Software Engineering" },
     { "name": "Hardware Engineering" },
     { "name": "Computer Circuit Design" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Python", "Javascript", "Powershell", "DOS", "Assembly" ]
+      "keywords": [ "Software Engineering","C", "C++", "Python", "Javascript", "Powershell", "DOS", "Assembly" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Linux", "Ubuntu", "Git/GitHub" ]
+      "keywords": [ "MacOS", "Windows", "Linux", "Git/GitHub" ]
     }
   ],
   "education": [
