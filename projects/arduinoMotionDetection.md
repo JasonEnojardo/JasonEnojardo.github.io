@@ -13,12 +13,16 @@ summary: "This is a device that detects vehicular motion paired with an automate
 ---
 
 <div class="text-center p-4">
-  <img width="300px" src="../img/Arduino-Motion-Detection/My-Arduino-GY-521-Device.jpg" class="img-thumbnail" >
   <img width="700px" src="../img/Arduino-Motion-Detection/Arduino-GY-521-Schematic.png" class="img-thumbnail" >
+    <img width="300px" src="../img/Arduino-Motion-Detection/My-Arduino-GY-521-Device.jpg" class="img-thumbnail" >
 </div>
 
+# Fire Truck Motion Detection Arduino
+
+## Overview
   The idea behind this project started out with finding a way to make sure firefighters are leaving the station within the 2-minute timeframe they are told they have once they receive the dispatch alarm for an incident. Currently there is already a tracking system in place on the trucks but the issue with that is their locations are updated on a timer rather than if they were driving. So, the solution we came up with was to use and accelerometer hooked to an Arduino that sent a signal to the COM port on the laptop. The accelerometer we choose to use was the GY-521. So, after coming up with this idea I was tasked to create the device and program it does what we wanted and create the automated program that collected the data produced.
 
+## My Experience
   This was a relatively simple project as the Arduino IDE has a header file, I could download to handle the GY-521 and all outputs of an Arduino are sent to the COM port of the computer. All I had to do was use the provided functions to initialize, loop the accelerometer and output anything that came from it. Also wiring the GY-521 was simple because it just needed to be hooked to power, ground, TX, and RX pins. At first, I thought it was that simple, but I had issues with getting it to work as intended because sometimes it wouldn't even detect any movement. Even though I tried tweaking the sensitivity values of the sensor nothing I did really improved the issue I was having. Although it wasn't a complete loss as it worked most of the time and yielded good results.
 
   The other portion of this project was to create a program that ran all the time just waiting to read whatever came through on the COM port connected to the Arduino and take the data and upload it to a text file and along with the name of the vehicle. So, I had to do 2 major things here, 1, I had to have the program go through some system files and open a text file and parse through it to retrieve the name of the vehicle, and 2, take the data which consisted of the time and movement speed and upload both onto a text file located on our server. This program was made using Powershell but prior to that I had tried making it in DOS BATCH, then a regular script, and then in Python. Ultimately, I choose to use Powershell because it integrated easier on the machines since they were all windows devices and if I had used python, I would need to install a compiler on 50 to 100+ machines. Unfortunate I cannot upload  the code for both the Arduino and automated program to upload here but I don’t as it's on my work computer.
