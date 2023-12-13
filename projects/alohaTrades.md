@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/alohaTrades/atradelogo.png
+image: img/alohaTrades/Marketplace-Page.png
 title: "Aloha Trades"
 date: 2023
 published: true
