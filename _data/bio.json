@@ -1,0 +1,63 @@
+{
+  "basics": {
+    "name": "Jason Enojardo",
+    "label": "Student",
+    "picture": "https://github.com/JasonEnojardo.png",
+    "email": "jason71@hawaii.edu",
+    "phone": "",
+    "website": "https://JasonEnojardo.github.io",
+    "summary": "I am a senior majoring in Computer Engineering at UH Manoa and I expect to graduate in Fall, 2023.",
+    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "JasonEnojardo", "url": "http://github.com/JasonEnojardo" },
+      { "network": "linkedin", "username": "Jason Enojardo", "url": "http://linkedin.com/in/jason-enojardo" }
+    ]
+  },
+  "interests": [
+    { "name": "Cybersecurity" },
+    { "name": "Software Engineering" },
+    { "name": "Hardware Engineering" },
+    { "name": "Computer Circuit Design" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "Software Engineering","C", "C++", "Python", "Javascript", "Powershell", "DOS", "Assembly" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Windows", "Linux", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Fall, 2023)",
+      "studyType": "B.S.",
+      "startDate": "2018-08",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Honolulu Fire Department IT Section",
+      "position": "IT Student Aide",
+      "website": "",
+      "startDate": "2022-01",
+      "endDate": "2022-12",
+      "summary": "Maintianed operations and worked on projects",
+      "highlights": [
+        "Worked on Arduino based projects.",
+        "Made a small automation program.",
+        "Maintained equipement and aided employees with technical issues."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="DTMF Decoder Arduino | Jason Enojardo | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/JasonEnojardo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jason Enojardo | Professional Portfolio">
+    <meta property="og:url" content="https://JasonEnojardo.github.io/projects/arduinoDTMFDecoder.html">
+    <meta property="og:title" content="DTMF Decoder Arduino | Jason Enojardo | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/JasonEnojardo.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>DTMF Decoder Arduino | Jason Enojardo | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jason Enojardo</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">DTMF Decoder Arduino</h1>
+ <p><img class="img-fluid" src="../img/Arduino-DTMF-Decoder/Arduino-MT8870-Schematic.jpg" /></p>
+
+<h1 id="dtmf-decoder-arduino">DTMF Decoder Arduino</h1>
+
+<h2 id="overview">Overview</h2>
+<p>The purpose of this project was to make a replacement component for the speaker systems in the fire stations because the component in place is not being produced anymore and it was the only one of its types that fit the speaker system we were using. So, if this device stopped working there would be a replacement part. This project was given to me and so I set out trying to figure out what parts I’d needed to make this work. First, I asked how the current device works and it works by receiving combinations of dial tones frequencies which is read by the device and when the right combination is received it triggers the stations speakers to turn on. Luckily for me there was an attachment that could be hooked up to an Arduino. The attachment is called the MT8870, and it worked by retrieving the sound frequency through a 3.5mm jack which goes through the decoder chip and lights up LEDs -built on the board in binary. So, for example if a 1 dial tone was received it’d display 0001.</p>
+
+<h2 id="my-experience">My Experience</h2>
+<p>The interesting thing I learned from this project is what is contained in a dial tone frequency and how the MT8870 can decode it. For instance, the number 5 would be 0101 in binary. To properly output this the device is taking the frequency and breaking it down to 0’s and 1’s. So, what I mean is in the number 5 dial tone, it is made up of 0 and 1 translated in the frequency. So, the device reads the first bit, which would read a 0 and then it would have to shift that bit to the left by 1 to receive the next bit 1 and continue until the tone is finished. So that’s how were left with 0101.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  toneVal = 0;                                //Initialize stored value to 0.
+  toneVal |= digitalRead(Q4) &lt;&lt; 3;            //Shift the first digit recieved 3 over.
+  toneVal |= digitalRead(Q3) &lt;&lt; 2;            //Shift next digit recieved 2 over.
+  toneVal |= digitalRead(Q2) &lt;&lt; 1;            //Shift following digit recieved 1 over.
+  toneVal |= digitalRead(Q1);                 //Leave last digit recived.
+</code></pre></div></div>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

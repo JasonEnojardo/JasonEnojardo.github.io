@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Fire Truck Motion Detection Arduino | Jason Enojardo | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/JasonEnojardo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jason Enojardo | Professional Portfolio">
+    <meta property="og:url" content="https://JasonEnojardo.github.io/projects/arduinoMotionDetection.html">
+    <meta property="og:title" content="Fire Truck Motion Detection Arduino | Jason Enojardo | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/JasonEnojardo.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Fire Truck Motion Detection Arduino | Jason Enojardo | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jason Enojardo</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Fire Truck Motion Detection Arduino</h1>
+ <div class="text-center p-4">
+  <img width="700px" src="../img/Arduino-Motion-Detection/Arduino-GY-521-Schematic.png" class="img-thumbnail" />
+    <img width="300px" src="../img/Arduino-Motion-Detection/My-Arduino-GY-521-Device.jpg" class="img-thumbnail" />
+</div>
+
+<h1 id="fire-truck-motion-detection-arduino">Fire Truck Motion Detection Arduino</h1>
+
+<h2 id="overview">Overview</h2>
+<p>The idea behind this project started out with finding a way to make sure firefighters are leaving the station within the 2-minute timeframe they are told they have once they receive the dispatch alarm for an incident. Currently there is already a tracking system in place on the trucks but the issue with that is their locations are updated on a timer rather than if they were driving. So, the solution we came up with was to use and accelerometer hooked to an Arduino that sent a signal to the COM port on the laptop. The accelerometer we choose to use was the GY-521. So, after coming up with this idea I was tasked to create the device and program it does what we wanted and create the automated program that collected the data produced.</p>
+
+<h2 id="my-experience">My Experience</h2>
+<p>This was a relatively simple project as the Arduino IDE has a header file, I could download to handle the GY-521 and all outputs of an Arduino are sent to the COM port of the computer. All I had to do was use the provided functions to initialize, loop the accelerometer and output anything that came from it. Also wiring the GY-521 was simple because it just needed to be hooked to power, ground, TX, and RX pins. At first, I thought it was that simple, but I had issues with getting it to work as intended because sometimes it wouldn’t even detect any movement. Even though I tried tweaking the sensitivity values of the sensor nothing I did really improved the issue I was having. Although it wasn’t a complete loss as it worked most of the time and yielded good results.</p>
+
+<p>The other portion of this project was to create a program that ran all the time just waiting to read whatever came through on the COM port connected to the Arduino and take the data and upload it to a text file and along with the name of the vehicle. So, I had to do 2 major things here, 1, I had to have the program go through some system files and open a text file and parse through it to retrieve the name of the vehicle, and 2, take the data which consisted of the time and movement speed and upload both onto a text file located on our server. This program was made using Powershell but prior to that I had tried making it in DOS BATCH, then a regular script, and then in Python. Ultimately, I choose to use Powershell because it integrated easier on the machines since they were all windows devices and if I had used python, I would need to install a compiler on 50 to 100+ machines. Unfortunate I cannot upload  the code for both the Arduino and automated program to upload here but I don’t as it’s on my work computer.</p>
+
+<p>This was a wonderful learning experience for me because this was the biggest Arduino project I’ve ever worked on and there were so many intricate parts that I had to figure out how to make them work together. I learned how to use many different languages that I never had learned about prior to this project. I also learned how important it is to communicate updates with your boss along with asking for help when you don’t know something, and have your coworkers check your code and ask if there are better efficient ways to code what you have.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
